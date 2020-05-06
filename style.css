@@ -1,0 +1,103 @@
+/*-----------------------------------------------
+CSS file should be divided in a way that reader can
+understand which part of HTML this CSS is related.
+This CSS defines style of the website i.e. header
+hence the title of the file is "style.css"
+------------------------------------------------*/
+/*CSS class is associated by tag name*/
+
+body {
+    background-image: url(gettyimages-1097903968-1024x1024.jpg);
+    /*how to optimizse background image: https://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*Bodyの背景はただの白にして、それぞれのセクションで背景画像を配置しなければいけない*/
+}
+
+header#menu {
+    /* introduction to width and height in css: https://saruwakakun.com/html-css/basic/width-height */
+    /* how to set header position: http://webnonotes.com/css/header_footer/ */
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(127, 255, 212, 0.3)/*127,255,212*/;
+    color: white;
+}
+
+/* how to make menu items horizontal: https://uxmilk.jp/60712 */
+/*header#menu nav {       
+    list-style: none;
+    overflow: hidden;
+}
+*/
+header#menu nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+header#menu nav li {
+    width: 150px;
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+header#menu nav li a {
+    text-decoration: none;
+    color: white;   /*to turn blue default to white: https://techacademy.jp/magazine/21233 */
+}
+
+p#kusuriMate {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+p#platform {
+    text-align: center;
+    font-size: 400%;
+    line-height: 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* what is display property?: https://saruwakakun.com/html-css/basic/display */
+div#news {
+    height: 150px;
+    width: 400px;
+    margin-left: 20px;
+    font-size: 80%;
+    color: white;
+    /* how to make background transmissive using ubga(): http://raining.bear-life.com/css/css3%E3%81%AE%E3%80%8Crgba%E3%80%8D%E3%81%A7%E8%83%8C%E6%99%AF%E8%89%B2%E3%82%92%E9%80%8F%E9%81%8E%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95 */
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.body2 {
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    /*background-image: url(8908290.jpg);*/
+    background-position: left;
+    background-color: white;
+
+}
+
+p#mission {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 300%;
+
+}
+
+p#missionStatement {
+    text-align: center;
+    color: black;
+    font-size: 350%;
+
+}
