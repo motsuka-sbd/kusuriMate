@@ -12,7 +12,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /*Bodyの背景はただの白にして、それぞれのセクションで背景画像を配置しなければいけない*/
+    /*Bodyの背景はただの白にして、それぞれのセクションで背景画像を配置しなければいけない https://www.sejuku.net/blog/55771 */
 }
 
 header#menu {
