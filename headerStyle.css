@@ -1,0 +1,30 @@
+header#menu {
+    /* introduction to width and height in css: https://saruwakakun.com/html-css/basic/width-height */
+    /* how to set header position: http://webnonotes.com/css/header_footer/ */
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(127, 255, 212, 0.3); 
+    color: white;
+    z-index: 3;
+}
+
+/* how to make menu items horizontal: https://uxmilk.jp/60712 */
+header#menu nav ul {
+    list-style: none;
+    overflow: visible;
+}
+
+header#menu nav li {
+    width: 150px;
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+header#menu nav li a {
+    text-decoration: none;
+    color: white;   /*to turn blue default to white: https://techacademy.jp/magazine/21233 */
+}
