@@ -1,0 +1,14 @@
+
+.fadeIn {
+    opacity: 0;
+    /*transform: 与えられた要素の回転、拡縮、傾斜、移動*/
+    /*translate(x, y): X方向の距離、Y方向の距離*/
+    transform: translate(0, 50px);
+    /*transition: アニメーションの速度を操作する*/
+    transition: all 1500ms;
+}
+
+.fadein.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}

@@ -6,7 +6,7 @@ header#menu {
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgba(127, 255, 212, 0.3); 
+    background-color: rgba(127, 255, 212, 0.5); 
     color: white;
     z-index: 3;
 }
