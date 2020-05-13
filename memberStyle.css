@@ -1,0 +1,75 @@
+div#MEMBER {
+    width: 100%;
+    height: 600px;
+    background-position: left;
+    background-color: white;
+    position: absolute;
+    top: 1800px;
+}
+
+div#joinMemberLayout {
+    width:  100%;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+}
+
+p#joinMemberTxt {
+    text-align: center;
+    font-size: 300%;
+    position: absolute;
+    left: 30%;
+}
+
+div#recrutingLayout {
+    width: 900px;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+    left: 15%;
+}
+
+p#recrutingTxt {
+    text-align: center;
+    font-size: 200%;
+}
+
+div#memberRoleLayout {
+    width: 60%;
+    height: 60px;
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    border-style: solid none;
+}
+
+p#memberRoleTxt {
+    height: 20px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    position: absolute;
+    top: -25px;
+    left: 30%;
+}
+
+div#membershipLayout {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 350px;
+    
+}
+
+p#membershipTxt {
+    text-align: center;
+    font-size: 150%;
+}
+
+a#joinButtonLayout {
+    position: absolute;
+    top: 530px;
+    left: 42%;
+    font-size: 150%;
+}
