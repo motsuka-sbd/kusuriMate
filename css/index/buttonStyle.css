@@ -20,5 +20,6 @@
     -webkit-transform: translateY(2px);
     transform: translateY(2px);/*沈むように*/
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-    background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);/*グラデーションを明るく*/
+    background-image: linear-gradient(aquamarine 0%, aquamarine 100%);/*グラデーションを明るく*/
+
   }

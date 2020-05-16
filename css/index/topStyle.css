@@ -1,9 +1,10 @@
 div#top {
     /*how to optimizse background image: https://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html */
-    background-image: url(gettyimages-1097903968-1024x1024.jpg);
+    background-image: url(../../img/index/gettyimages-1097903968-1024x1024.jpg);
     height: 600px;
     width: 100%;
-    position: absolute; top: 0;
+    position: absolute; 
+    top: 0;
 }
 
 p#kusuriMate {
