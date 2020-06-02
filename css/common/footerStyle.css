@@ -1,0 +1,34 @@
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    position: absolute;
+    top: 4750px;
+    /*bottom: 0;*/
+}
+
+div kusuriMateFooterLayout {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+a kusuriMateFooterTxt{
+    font-size: 200%;
+    text-decoration: none;
+    color: black;
+    top: 30%;
+    left: 5%;
+}
+
+div representativeFooterLayout {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
