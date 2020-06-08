@@ -9,7 +9,7 @@ hence the title of the file is "style.css"
 body {
     background-color: white;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 0;
     /*Bodyの背景はただの白にして、それぞれのセクションで背景画像を配置しなければいけない https://www.sejuku.net/blog/55771 */
 }

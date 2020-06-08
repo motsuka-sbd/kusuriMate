@@ -3,17 +3,16 @@ footer{
     width: 100%;
     height: auto;
     background-color: white;
-
     position: absolute;
+    bottom: 0;
     top: 4750px;
-    /*bottom: 0;*/
 }
 
 div kusuriMateFooterLayout {
     width: 20%;
     height: 20%;
     position: absolute;
-    top: 30%;
+    top: 200px;
     left: 5%;
 }
 
@@ -31,4 +30,11 @@ div representativeFooterLayout {
     position: absolute;
     top: 30%;
     left: 5%;
+}
+
+div copyrightFooterLayout {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    right: 5%;
 }
