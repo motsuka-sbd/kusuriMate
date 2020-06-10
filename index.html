@@ -5,169 +5,175 @@
         <title>くすりmate</title>   <!-- title of this site-->
         <link rel="stylesheet" type="text/css" href="style.css" --> <!-- associate this file with "style.css"-->
     </head>
-    <body>
-        <header id="menu">  <!-- header of the page-->  <!-- associate css with id name-->
-            <h1>くすりmate</h1> <!-- title of the page header-->
-            <nav>   <!-- provide navigation link to other section or document-->
-                <ul>    <!-- provide list in which the order of items don't matter-->
-                    <li><a href="#">メンバー募集</a></li>
-                    <li><a href="#">事業内容</a></li>
-                    <li><a href="#">代表</a></li>
+    <body>  
+        <div id="wrapper">
+<!-- Header -->
+            <header id="menu">  <!-- header of the page-->  <!-- associate css with id name-->
+                <h1><a id="indexJump" href=index.html>くすりmate</a></h1> <!--ここリンクにしなきゃじゃない？--><!-- title of the page header-->
+                <nav>   <!-- provide navigation link to other section or document-->
+                    <ul>    <!-- provide list in which the order of items don't matter-->
+                        <li><a href="#">メンバー募集</a></li>
+                        <li><a href="businessDetail.html">事業内容</a></li>
+                        <li><a href="#">代表</a></li>
+                    </ul>
+                </nav> 
+                <link rel="stylesheet" type="text/css" href="./css/common/headerStyle.css" -->
+            </header>
+<!-- Main -->
+            <main> 
+                <section id="content">
+                    <div id="top">
+                        <p id="kusuriMate">くすりmate</p>
+                        <p id="platform">”くすり”で繋がる仲間のプラットフォーム</p>
+                        <div id="news">
+                            News
+                            <ul>
+                                <li>2020/06/01  Our web site has been opened!</li>
+                                <li>2020/04/01  We registered ourelves to Hamamatsu community center</li>
+                            </ul>
+                        </div>
+                        <link rel="stylesheet" type="text/css" href="./css/index/topStyle.css" -->
+                    </div>
+                    <div id="MISSION">
+                        <div id=missionImg></div>
+                        <p id="mission">mission</p>
+                        <p id="missionStatement">くすりの課題を、つながる力で解決する</p>
+                        <div id="missionExplain">
+                            <p>くすりmateは、浜松地域の医療者のつながりでできています。<br>
+                                組織・役職・立場などにとらわれない「一人の医療者」のつながりが、<br>
+                                薬の課題を解決する力になります。</p>
+                        </div>
+                        <link rel="stylesheet" type="text/css" href="./css/index/missionStyle.css" -->
+                    </div>
+                    <div id="VISION">
+                        <div id="visionImg"></div>
+                        <p id="vision">vision</p>
+                        <p id="visionStatement">浜松ナンバーワンの課題解決力</p>
+                        <div id="visionExplain">
+                            <p>くすりmateのコミュニティは、浜松地域最大です。<br>
+                                「7つのコア事業」でオフライン＆オンラインサロンを運営し、<br>
+                                7事業のシナジーを生かした課題解決能力と提供します。</p>
+                        </div>
+                        <link rel="stylesheet" type="text/css" href="./css/index/visionStyle.css" -->
+                    </div>
+                    <div id="MEMBER">
+                        <div id="joinMemberLayout">
+                            <p id="joinMemberTxt">コアメンバーに参加する</p>
+                        </div>
+                        <div id="recrutingLayout">
+                            <p id="recrutingTxt">浜松地域の「薬の課題」に対してリーダーシップを発揮し、<br>
+                                自ら行動する方を募集します。
+                            </p>
+                        </div>
+                        <div id="memberRoleLayout">
+                            <p id="memberRoleTxt">コアメンバーの役割</p>
+                        </div>
+                        <div id="membershipLayout">
+                            <p id="membershipTxt">定期的なミーティングを軸に、オンライン＆オフラインサロンの<br>
+                                企画・運営の中心的な役割を担っていただきます。<br>
+                                また、「7つの事業領域」の中で、自身が関心のある領域のリーダー的<br>
+                                役割を担っていただきます。
+                            </p>
+                        </div>
+                        <a id="joinButtonLayout" href="#" class="btn-square-soft">参加する</a>
+                        <link rel="stylesheet" type="text/css" href="./css/index/memberStyle.css" -->
+                        <link rel="stylesheet" type="text/css" href="./css/index/buttonStyle.css" -->   <!-- need refatoring?-->
+                    </div>
+                    <div id="business">
+                        <div id=index>    <!-- 7つのコア事業-->
+                            <p>７つのコア事業</p>
+                        </div>
+                        <div id="p1">     <!-- 教育-->
+                            <p id="education">1. 教育</p>
+                            <div id="eduImg"></div>
+                            <div id="eduText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p2">     <!--ネットワーク-->
+                            <p id="network">2. ネットワーク</p>
+                            <div id="netImg"></div>
+                            <div id="netText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p3">     <!--　医療施設支援-->
+                            <p id="support">3. 医療施設支援</p>
+                            <div id="supImg"></div>
+                            <div id="supText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p4">     <!--　イベント-->
+                            <p id="event">4. イベント</p>
+                            <div id="evntImg"></div>
+                            <div id="evntText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p5">     <!--　研究-->
+                            <p id="research">5. 研究</p>
+                            <div id="resImg"></div>
+                            <div id="resText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p6">     <!--　イノベーション-->
+                            <p id="innovation">6. イノベーション</p>
+                            <div id="innoImg"></div>
+                            <div id="innoText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div id="p7">     <!--　オンライン配信-->
+                            <p id="online">7. オンライン配信</p>
+                            <div id="onlineImg"></div>
+                            <div id="onlineText">
+                                <p></p>
+                            </div>
+                        </div>
+                        <link rel="stylesheet" type="text/css" href="./css/index/effect.css" -->
+                        <link rel="stylesheet" type="text/css" href="./css/index/businessStyle.css" -->
+                        <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
+                        <script type="text/javascript" src="./js/effect.js"></script>
+                    </div>
+                    <div id="CONTACT">
+                        <div id="contactLayout">
+                            <p id="contactTxt">CONTACT</p>
+                        </div>
+                        <div id="lineQR"></div>
+                        <div id=emailLayout>
+                            <p id="emailTxt">yuichi4771@yahoo.co.jp</p>
+                        </div>
+                        <div id="lineIdLayout">
+                            <p id="lineIdTxt">yuichi4771</p>
+                        </div>
+                        <a id="fbLayout" class="fb" href=""></a>
+                        <a id="lineLayout" class="line" href=""></a>
+                        <a id="instaLayout" class="insta" href=""></a>
+                        <!--    <div class="twitter"></div>
+                        <div class="linkedin"></div>
+                        <div class="eight"></div> -->
+                        <link rel="stylesheet" type="text/css" href="./css/index/contactStyle.css" -->
+                        <link rel="stylesheet" type="text/css" href="./css/sns/snsStyle.css" -->
+                    </div>
+                </section>
+            </main>
+<!-- Foooter -->
+            <footer>  
+                <div id="footerLogoLayout">
+                    <p id="footerLogoTxt" href="#">くすりmate</p>
+                </div>
+                <ul id="footerMenu">
+                    <li><a href="#">- 代表</a></li>
+                    <li><a href="#">- 事業内容</a></li>
+                    <li><a href="#">- メンバー募集</a></li>
                 </ul>
-            </nav> 
-            <link rel="stylesheet" type="text/css" href="./css/common/headerStyle.css" -->
-        </header>
-        <div id="top">
-            <p id="kusuriMate">くすりmate</p>
-            <p id="platform">”くすり”で繋がる仲間のプラットフォーム</p>
-            <div id="news">
-                News
-                <ul>
-                    <li>2020/06/01  Our web site has been opened!</li>
-                    <li>2020/04/01  We registered ourelves to Hamamatsu community center</li>
-                </ul>
-            </div>
-            <link rel="stylesheet" type="text/css" href="./css/index/topStyle.css" -->
+                <div id="copyRightLayout">
+                    <p id="copyRightTxt">くすりmate©</p>
+                </div>
+                <link rel="stylesheet" type="text/css" href="./css/common/indexFooterStyle.css" -->
+            </footer>
         </div>
-        <div id="MISSION">
-            <div id=missionImg></div>
-            <p id="mission">mission</p>
-            <p id="missionStatement">くすりの課題を、つながる力で解決する</p>
-            <div id="missionExplain">
-                <p>くすりmateは、浜松地域の医療者のつながりでできています。<br>
-                    組織・役職・立場などにとらわれない「一人の医療者」のつながりが、<br>
-                    薬の課題を解決する力になります。</p>
-            </div>
-            <link rel="stylesheet" type="text/css" href="./css/index/missionStyle.css" -->
-        </div>
-        <div id="VISION">
-            <div id="visionImg"></div>
-            <p id="vision">vision</p>
-            <p id="visionStatement">浜松ナンバーワンの課題解決力</p>
-            <div id="visionExplain">
-                <p>くすりmateのコミュニティは、浜松地域最大です。<br>
-                    「7つのコア事業」でオフライン＆オンラインサロンを運営し、<br>
-                    7事業のシナジーを生かした課題解決能力と提供します。</p>
-            </div>
-            <link rel="stylesheet" type="text/css" href="./css/index/visionStyle.css" -->
-        </div>
-        <div id="MEMBER">
-            <div id="joinMemberLayout">
-                <p id="joinMemberTxt">コアメンバーに参加する</p>
-            </div>
-            <div id="recrutingLayout">
-                <p id="recrutingTxt">浜松地域の「薬の課題」に対してリーダーシップを発揮し、<br>
-                    自ら行動する方を募集します。
-                </p>
-            </div>
-            <div id="memberRoleLayout">
-                <p id="memberRoleTxt">コアメンバーの役割</p>
-            </div>
-            <div id="membershipLayout">
-                <p id="membershipTxt">定期的なミーティングを軸に、オンライン＆オフラインサロンの<br>
-                    企画・運営の中心的な役割を担っていただきます。<br>
-                    また、「7つの事業領域」の中で、自身が関心のある領域のリーダー的<br>
-                    役割を担っていただきます。</p>
-            </div>
-            <a id="joinButtonLayout" href="#" class="btn-square-soft">参加する</a>
-            <link rel="stylesheet" type="text/css" href="./css/index/memberStyle.css" -->
-            <link rel="stylesheet" type="text/css" href="./css/index/buttonStyle.css" -->   <!-- need refatoring?-->
-        </div>
-        <div id="business">
-            <div id=index>    <!-- 7つのコア事業-->
-                <p>７つのコア事業</p>
-            </div>
-            <div id="p1">     <!-- 教育-->
-                <p id="education">1. 教育</p>
-                <div id="eduImg"></div>
-                <div id="eduText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p2">     <!--ネットワーク-->
-                <p id="network">2. ネットワーク</p>
-                <div id="netImg"></div>
-                <div id="netText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p3">     <!--　医療施設支援-->
-                <p id="support">3. 医療施設支援</p>
-                <div id="supImg"></div>
-                <div id="supText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p4">     <!--　イベント-->
-                <p id="event">4. イベント</p>
-                <div id="evntImg"></div>
-                <div id="evntText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p5">     <!--　研究-->
-                <p id="research">5. 研究</p>
-                <div id="resImg"></div>
-                <div id="resText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p6">     <!--　イノベーション-->
-                <p id="innovation">6. イノベーション</p>
-                <div id="innoImg"></div>
-                <div id="innoText">
-                    <p></p>
-                </div>
-            </div>
-            <div id="p7">     <!--　オンライン配信-->
-                <p id="online">7. オンライン配信</p>
-                <div id="onlineImg"></div>
-                <div id="onlineText">
-                    <p></p>
-                </div>
-            </div>
-            <link rel="stylesheet" type="text/css" href="./css/index/effect.css" -->
-            <link rel="stylesheet" type="text/css" href="./css/index/businessStyle.css" -->
-            <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
-            <script type="text/javascript" src="./js/effect.js"></script>
-        </div>
-        <div id="CONTACT">
-            <div id="contactLayout">
-                <p id="contactTxt">CONTACT</p>
-            </div>
-            <div id="lineQR"></div>
-            <div id=emailLayout>
-                <p id="emailTxt">yuichi4771@yahoo.co.jp</p>
-            </div>
-            <div id="lineIdLayout">
-                <p id="lineIdTxt">yuichi4771</p>
-            </div>
-            <a id="fbLayout" class="fb" href=""></a>
-            <a id="lineLayout" class="line" href=""></a>
-            <a id="instaLayout" class="insta" href=""></a>
-<!--            <div class="twitter"></div>
-            <div class="linkedin"></div>
-            <div class="eight"></div> -->
-            <link rel="stylesheet" type="text/css" href="./css/index/contactStyle.css" -->
-            <link rel="stylesheet" type="text/css" href="./css/sns/snsStyle.css" -->
-        </div>
-        <footer>    <!-- メニュー表現はliでやるべき？https://web-camp.io/magazine/archives/27870#headerfooter-2-->
-            <div id="kusuriMateFooterLayout">
-                <a id="kusuriMateFooterTxt" href="#">くすりmate</p>
-            </div>
-            <div id="representativeFooterLayout">
-                <a id="representativeFooterTxt" href="#">- 代表</p>
-            </div>
-            <div id="businessFooterLayout">
-                <a id="businessFooterTxt" href="#">- 事業内容</p>
-            </div>
-            <div id="memberFooterLayout">
-                <a id="memberFooterTxt" href="#">- メンバー募集</a>
-            </div>
-            <div id="copyrightFooterLayout">
-                <p id="copyrightFooterTxt">kusurimate©</p>
-            </div>
-            <link rel="stylesheet" type="text/css" href="./css/common/footerStyle.css" -->
-        <footer>
     </body>
 </html>

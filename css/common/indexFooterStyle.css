@@ -1,0 +1,49 @@
+/*-------------------------------------------------*/
+/*  フッターの位置をpx指定していて使いまわせない！     */
+/*  要リファクタ                                    */
+/*-------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 4750px;
+}
+
+div#footerLogoLayout {
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 5%;
+    left:2%;
+}
+
+p#footerLogoTxt {
+    font-size: 130%;
+}
+
+ul#footerMenu {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+ul#footerMenu li {
+    display: inline;
+    margin: 0 30px;
+    font-size: 150%;
+}
+
+ul#footerMenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+div#copyRightLayout {
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}

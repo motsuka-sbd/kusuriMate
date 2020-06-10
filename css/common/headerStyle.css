@@ -11,6 +11,11 @@ header#menu {
     z-index: 3;
 }
 
+a#indexJump {
+    text-decoration: none;
+    color: white;
+}
+
 /* how to make menu items horizontal: https://uxmilk.jp/60712 */
 header#menu nav ul {
     list-style: none;
