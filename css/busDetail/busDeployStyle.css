@@ -1,0 +1,192 @@
+
+div#businessDeployment {
+    background-color: #eeeeee;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+div#busMsgLayout {
+    width: 80%;
+    position: absolute;
+    top: -50px;
+    left: 10%;
+}
+
+p#busMsgTxt {
+    font-size: 400%;
+    text-align: center;
+
+}
+
+div#pfMsgLayout {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 220px;
+    left: 15%;
+    border-radius: 500px / 150px;
+    background-color: #BBBBBB;
+}
+
+p#pfMsgTxt {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 300%;
+    text-align: center;
+}
+
+div#personLayout {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 365px;
+    left: 25%;
+    border-radius: 50px / 50px;
+    background-color: #888888;
+}
+
+p#personTxt {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+}
+
+div#skillLayout {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 380px;
+    left: 40%;
+    border-radius: 50px / 50px;
+    background-color: #888888;
+  
+}
+
+p#skillTxt {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+  
+}
+
+div#infoLayout {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 380px;
+    left: 55%;
+    border-radius: 50px / 50px;
+    background-color: #888888;
+
+}
+
+p#infoTxt {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+
+}
+
+div#fundLayout {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 365px;
+    left: 70%;
+    border-radius: 50px / 50px;
+    background-color: #888888;
+}
+
+p#fundTxt {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+
+}
+
+div#grpLayout {
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 485px;
+    left: 33%;
+    border-radius: 20px / 20px;
+    background-color: #FFFFCC;
+}
+
+p#grpTxt {
+    position: absolute;
+    top: -30%;
+    left: 25%;
+    font-size: 150%;
+    text-align: center;
+}
+
+div#eduLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #ff4f02;
+    border-width: thick;
+    background-color: white;
+}
+
+p#eduTxt {
+    position: absolute;
+    top: -50%;
+    left: 40%;
+    font-size: 150%;
+    text-align: center;
+}
+
+div#netLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 600px;
+    left: 45%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #005fff;
+    border-width: thick;
+    background-color: white;
+
+}
+
+p#netTxt {
+    position: absolute;
+    top: -50%;
+    left: 22%;
+    font-size: 150%;
+    text-align: center;
+}
+
+div#supLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 600px;
+    left: 70%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #c0c0c0;
+    border-width: thick;
+    background-color: white;
+
+}
+
+p#supTxt {
+    position: absolute;
+    top: -50%;
+    left: 22%;
+    font-size: 150%;
+    text-align: center;
+
+}

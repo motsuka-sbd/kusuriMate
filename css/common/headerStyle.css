@@ -2,7 +2,7 @@ header#menu {
     /* introduction to width and height in css: https://saruwakakun.com/html-css/basic/width-height */
     /* how to set header position: http://webnonotes.com/css/header_footer/ */
     width: 100%;
-    height: auto;
+    height: 130px;
     position: fixed;
     top: 0px;
     left: 0px;

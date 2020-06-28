@@ -3,12 +3,12 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding-top: 114px;
     /*Bodyの背景はただの白にして、それぞれのセクションで背景画像を配置しなければいけない https://www.sejuku.net/blog/55771 */
 }
+
  div#wrapper {
     width: 100%;
-    position: relative;
-    min-height: 100%;
  }
 
  section#content {
