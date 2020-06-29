@@ -188,5 +188,105 @@ p#supTxt {
     left: 22%;
     font-size: 150%;
     text-align: center;
+}
 
+div#eveLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 670px;
+    left: 20%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #ffff00;
+    border-width: thick;
+    background-color: white; 
+}
+
+p#eveTxt {
+    position: absolute;
+    top: -50%;
+    left: 30%;
+    font-size: 150%;
+    text-align: center;   
+}
+
+div#resLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 670px;
+    left: 45%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #008000;
+    border-width: thick;
+    background-color: white; 
+}
+
+p#resTxt {
+    position: absolute;
+    top: -50%;
+    left: 40%;
+    font-size: 150%;
+    text-align: center;      
+}
+
+div#innLayout {
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 670px;
+    left: 70%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: thick;
+    background-color: white;    
+}
+
+p#innTxt {
+    position: absolute;
+    top: -50%;
+    left: 18%;
+    font-size: 150%;
+    text-align: center;         
+}
+
+div#onlineLayout {
+    width: 925px;
+    height: 40px;
+    position: absolute;
+    top: 740px;
+    left: 20%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #800080;
+    border-width: thick;
+    background-color: white;     
+}
+
+p#onlineTxt {
+    position: absolute;
+    top: -50%;
+    left: 38%;
+    font-size: 150%;
+    text-align: center;         
+}
+
+div#solLayout {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 10%;
+}
+
+p#solTxt {
+    position: absolute;
+    
+    left: 20%;
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
 }
