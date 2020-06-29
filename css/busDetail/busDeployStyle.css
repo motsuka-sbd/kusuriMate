@@ -2,9 +2,9 @@
 div#businessDeployment {
     background-color: #eeeeee;
     width: 100%;
-    height: auto;
+    height: 950px;
     position: absolute;
-
+    top: 130px;
 }
 
 div#busMsgLayout {
