@@ -1,0 +1,93 @@
+div#network {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1820px;
+    background-color: #eeeeee;
+}
+
+div#netTitleLayout {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #005fff;
+    border-width: thick;
+    background-color: white;
+}
+
+p#netTitleTxt {
+    position: absolute;
+    top: -120%;
+    left: 38%;
+    font-size: 250%;
+    text-align: center;
+}
+
+div#netLeadImg {
+    width: 15%;
+    height: 200px;
+    background-size: 100%;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+}
+
+div#netperson {
+    width: 15%;
+    height: 50px;
+    position: absolute;
+    top: 290px;
+    left: 10%;
+    font-size: 75%;
+
+}
+
+div#netLoungeLayout {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 60%;
+}
+
+p#netLoungeTxt{
+    font-size: 200%;
+}
+
+div#netComLayout {
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 45%;
+}
+
+p#netComTxt {
+    font-size: 150%;
+    text-align: center;
+}
+
+div#netlound {
+    position: absolute;
+    top: 300px;
+    left: 45%;
+}
+
+div#discussionLayout {
+    position: absolute;
+    top: 750px;
+}
+
+p#discussionTxt {
+    font-size: 250%;
+    text-align: center;
+}
+
+div#networkImg {
+    position: absolute;
+    top: 1000px;
+}
