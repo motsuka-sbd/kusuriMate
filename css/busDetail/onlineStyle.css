@@ -1,0 +1,51 @@
+div#online {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5750px;
+}
+
+div#onlinePfLayout {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #800080;
+    border-width: thick;
+    background-color: white;
+}
+
+p#onlinePfTxt {
+    position: absolute;
+    top: -120%;
+    left: 38%;
+    font-size: 250%;
+    text-align: center;
+}
+
+div#onlinePfLeadImg {
+    width: 15%;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    background-color: red;
+}
+
+div#onlinePfPerson {
+    width: 15%;
+    height: 50px;
+    position: absolute;
+    top: 290px;
+    left: 10%;
+    font-size: 75%;
+}
+
+div#onlinedeta {
+    position: absolute;
+    top: 90px;
+    left: 30%;
+}

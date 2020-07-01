@@ -1,0 +1,79 @@
+div#CONTACT{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 6950px;
+    background-color: #20b2aa;
+}
+
+div#contactLayout{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+p#contactTxt {
+    font-size: 250%;
+    color: white;
+    position: absolute;
+    top: -45px;
+    left: 25%;
+}
+
+div#lineQR {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    background-image: url(../../img/sns/lineQr.jpg);
+    background-size: 120px;
+}
+
+div#emailLayout {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+p#emailTxt {
+    color: white;
+    font-size: 150%;
+}
+
+div#lineIdLayout {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+p#lineIdTxt {
+    color: white;
+    font-size: 150%;
+}
+
+a#fbLayout {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+
+a#lineLayout {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60%;
+    left: 77%;
+}
+
+a#instaLayout {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60%;
+    left: 84%;
+}

@@ -8,7 +8,7 @@ footer {
     height: 100px;
     background-color: white;
     position: absolute;
-    top: auto;
+    top: 7200px;
 }
 
 div#footerLogoLayout {
