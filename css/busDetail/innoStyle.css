@@ -1,0 +1,35 @@
+div#innovation {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5500px;
+}
+
+div#innovationLayout {
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    border-radius: 10px / 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: thick;
+    background-color: white;
+
+}
+
+p#innovationTxt {
+    position: absolute;
+    top: -120%;
+    left: 38%;
+    font-size: 250%;
+    text-align: center;
+}
+
+p#wanted {
+    position: absolute;
+    top: 50px;
+    font-size: 400%;
+    left: 35%;
+}
