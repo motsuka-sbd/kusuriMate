@@ -1,8 +1,7 @@
 div#network {
     width: 100%;
-    height: auto;
     position: absolute;
-    top: 1820px;
+    top: 1850px;
     background-color: #eeeeee;
 }
 
@@ -40,7 +39,7 @@ div#netperson {
     width: 15%;
     height: 50px;
     position: absolute;
-    top: 290px;
+    top: 450px;
     left: 10%;
     font-size: 75%;
 

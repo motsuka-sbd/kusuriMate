@@ -1,11 +1,11 @@
-div#education {
+div#medicSupport {
     width: 100%;
-    height: 500px;
+    height: auto;
     position: absolute;
-    top: 1100px;
+    top: 3300px;
 }
 
-div#eduTitleLayout {
+div#medicSupportLayout{
     width: 80%;
     height: 40px;
     position: absolute;
@@ -13,20 +13,20 @@ div#eduTitleLayout {
     left: 10%;
     border-radius: 10px / 10px;
     border-style: solid;
-    border-color: #ff4f02;
+    border-color: #c0c0c0;
     border-width: thick;
     background-color: white;
 }
 
-p#eduTitleTxt{
+p#medicSupportTxt {
     position: absolute;
     top: -120%;
-    left: 45%;
+    left: 38%;
     font-size: 250%;
     text-align: center;
 }
 
-div#eduLeadImg {
+div#medicSupportLeadImg {
     width: 15%;
     height: 200px;
     position: absolute;
@@ -35,7 +35,7 @@ div#eduLeadImg {
     background-color: red;
 }
 
-div#educationPerson {
+div#medicSupportperson {
     width: 15%;
     height: 50px;
     position: absolute;
@@ -44,38 +44,24 @@ div#educationPerson {
     font-size: 75%;
 }
 
-div#training {
+div#medisupLayout {
+    width: 60%;
+    height: 400px;
     position: absolute;
     top: 80px;
-    left: 30%;
+    left: 40%;
 }
 
-div#studyGrpLayout {
-    width: 10%;
-    height: 50px;
+p#medisupTxt {
+    font-size: 200%;
+}
+
+ul#medisupLst {
+    font-size: 200%;
+}
+
+div#medisupdeta {
     position: absolute;
-    top: 530px;
-    left: 45%;
-}
-
-p#studyGrpTxt {
-    position: absolute;
-    font-size: 250%;
-    font-style: bold;
-}
-
-ul#studyGrpOpt {
-    width: 90%;
-    position: absolute;
-    top: 620px;
-    left: 3%;
-    list-style: circle;
-}
-
-ul#studyGrpOpt li {
-    width: 400px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 150%;
-    float: left;
+    top: 500px;
+    left: 10%;
 }
