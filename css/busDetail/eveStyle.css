@@ -19,7 +19,7 @@ div#eventLayout {
     background-color: white;
 }
 
-p#eveTxt {
+p#eventTxt {
     position: absolute;
     top: -120%;
     left: 38%;
