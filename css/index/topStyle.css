@@ -1,6 +1,7 @@
 div#top {
     /*how to optimizse background image: https://coliss.com/articles/build-websites/operation/css/css-responsive-full-background-image-by-sixrevisions.html */
-    background-image: url(../../img/index/gettyimages-1097903968-1024x1024.jpg);
+    background-image: url(../../img/index/くすりmateイメージメイン画像.jpg);
+    background-size: cover;
     height: auto;
     width: 100%;
     position: absolute; 
