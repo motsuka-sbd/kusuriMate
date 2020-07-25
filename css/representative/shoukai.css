@@ -1,4 +1,25 @@
-div#aisatu{
-  margin-top: 1000px;
-  font-size: 200%;
+div#shoukai{
+  width: 100%;
+  top: 100px;
+  position: absolute;
 }
+h1#aisatu{
+  position: absolute;
+  top: 100ox;
+}
+
+img{
+  position: absolute;
+  top: 150px;
+}
+
+h2#daihyoumei{
+ position: absolute;
+ top: 500px;
+}
+
+h3#aisatunaiyou{
+ position: absolute;
+ top: 550px
+}
+
