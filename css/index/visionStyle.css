@@ -1,35 +1,32 @@
 div#VISION {
     width: 100%;
-    height: 600px;
+    height: 450px;
     background-position: left;
     background-color: white;
-    position: absolute; top: 1200px;
+    position: absolute; top: 1100px;
+    background-color: rgb(243, 243, 243);
 }
 
-div#visionImg {
-    width: 400px;
-    height: 600px;
-    background-image: url(../../img/index/8908290.jpg);
-    position: absolute; right: 0px;
-}
+
 
 p#vision {
     text-align: center;
     text-decoration: underline;
-    color: black;
+    color:#4c4c4c;
     font-size: 300%;
-    position: absolute; top: 100px; left: 45%;
+    position: absolute; top: 0px; left: 45%;
 }
 
 p#visionStatement {
     text-align: center;
-    color: black;
-    font-size: 400%;
-    position: absolute; top: 200px; left: 15%;
+    color:#4c4c4c;
+    font-size: 350%;
+    position: absolute; top: 100px; left: 5%;
 }
 
 div#visionExplain {
-    width: 650px;
-    height: 200px;
-    position: absolute; top: 450px; left: 10%;
+    text-align: center;
+    color:#4c4c4c;
+    font-size: 150%;
+    position: absolute; top: 250px; left: 5%;
 }

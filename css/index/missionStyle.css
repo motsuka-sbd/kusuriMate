@@ -1,34 +1,29 @@
 div#MISSION {
     width: 100%;
-    height: auto;
+    height: 450px;
     background-position: left;
     background-color: white;
     position: absolute; top: 600px;
 }
 
-div#missionImg {
-    width: 400px;
-    height: 600px;
-    background-image: url(../../img/index/8908290.jpg);
-}
-
 p#mission {
     text-decoration: underline;
-    color: black;
+    color:#4c4c4c;
     font-size: 300%;
-    position: absolute; top: 100px; left: 45%;
+    position: absolute; top: 10px; left: 45%;
     /*要素をBOXの中央に配置する: https://arts-factory.net/position/ */
 }
 
 p#missionStatement {
     text-align: center;
-    color: black;
-    font-size: 400%;
-    position: absolute; top: 200px; left: 5%;
+    color:#4c4c4c;
+    font-size: 350%;
+    position: absolute; top: 100px; left: 5%;
 }
 
-div#missionExplain {
-    width: 650px;
-    height: 200px;
-    position: absolute; top: 450px; right: 5%;
+p#missionExplain {
+    text-align: center;
+    color:#4c4c4c;
+    font-size: 150%;
+    position: absolute; top: 250px; right: 5%;
 }
