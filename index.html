@@ -6,33 +6,35 @@
         <link rel="stylesheet" type="text/css" href="style.css" --> <!-- associate this file with "style.css"-->
     </head>
     <body>  
-        <div id="wrapper">
-<!-- Header -->
-            <header id="menu">  <!-- header of the page-->  <!-- associate css with id name-->
+        <header id="menu"> 
+            <section id="topbar">
                 <h1><a id="indexJump" href=index.html>くすりmate</a></h1> 
-                <nav>   <!-- provide navigation link to other section or document-->
-                    <ul>    <!-- provide list in which the order of items don't matter-->
+                <nav>   
+                    <ul>    
                         <li><a href="wantedpage.html">メンバー募集</a></li>
                         <li><a href="businessDetail.html">事業内容</a></li>
                         <li><a href="representative.html">代表</a></li>
                     </ul>
                 </nav> 
-                <link rel="stylesheet" type="text/css" href="./css/common/headerStyle.css" -->
-            </header>
-<!-- Main -->
-            <main> 
+                <link rel="stylesheet" type="text/css" href="./css/common/topbar.css">
+            </section> 
+            <section id="topmain">
+                <div id="headerback"></div>
+                <div id="top">
+                    <p id="platform">”くすり”で繋がる仲間のプラットフォーム</p>
+                    <div id="news">
+                        News
+                        <ul>
+                            <li>2020/06/01  Our web site has been opened!</li>
+                            <li>2020/04/01  We registered ourelves to Hamamatsu community center</li>
+                        </ul>
+                    </div>
+                </div>
+                <link rel="stylesheet" rype="text/css" href="css/common/topmain.css">
+            </section>
+        </header>
+        <main> 
                 <section id="content">
-                    <div id="top">
-                        <p id="kusuriMate">くすりmate</p>
-                        <p id="platform">”くすり”で繋がる仲間のプラットフォーム</p>
-                        <div id="news">
-                            News
-                            <ul>
-                                <li>2020/06/01  Our web site has been opened!</li>
-                                <li>2020/04/01  We registered ourelves to Hamamatsu community center</li>
-                            </ul>
-                        </div>
-                        <link rel="stylesheet" type="text/css" href="./css/index/topStyle.css" -->
                     </div>
                     <div id="MISSION">
                         <div id=missionImg></div>
@@ -158,10 +160,9 @@
                         <link rel="stylesheet" type="text/css" href="./css/sns/snsStyle.css" -->
                     </div>
                 </section>
-                <link rel="stylesheet" type="text/css" href=".css/index/indexmain">
-            </main>
+        </main>
 <!-- Foooter -->
-            <footer>  
+        <footer>  
                 <div id="footerLogoLayout">
                     <p id="footerLogoTxt" href="#">くすりmate</p>
                 </div>
@@ -174,7 +175,6 @@
                     <p id="copyRightTxt">くすりmate©</p>
                 </div>
                 <link rel="stylesheet" type="text/css" href="./css/common/indexFooterStyle.css" -->
-            </footer>
-        </div>
+        </footer>
     </body>
 </html>

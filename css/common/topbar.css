@@ -1,0 +1,38 @@
+section#topbar{
+  width: 100%;
+  background-color: rgba(61, 195, 195, 0.692); 
+  display: flex;
+  justify-content: space-between;
+}
+
+a#indexJump {
+  text-decoration: none;
+  color: white;
+}
+
+header#menu nav ul {
+  padding-left: 0px;
+  margin-top: 65px;
+  list-style: none;
+  overflow: visible;
+}
+
+header#menu nav li {
+  font-size: 150%;
+  margin: 0px;
+  width: 150px;
+  text-align: center;
+  float: right;
+  font-weight: bold;
+}
+
+header#menu nav li a {
+  text-decoration: none;
+  color: white;   /*to turn blue default to white: https://techacademy.jp/magazine/21233 */
+}
+
+h1{
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

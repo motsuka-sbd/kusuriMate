@@ -1,0 +1,53 @@
+section#topmain{
+  height: 600px;
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+div#top{
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+
+div#headerback{
+  background-image: url(../../img/index/くすりmateイメージメイン画像2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+p#kusuriMate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 180px;
+  color: white;
+  font-weight: bold;
+}
+
+p#platform {
+  text-align: center;
+  font-size: 350%;
+  color: white;
+  font-weight: bolder;
+  margin-top: 180px;
+}
+
+div#news {
+  height: 150px;
+  width: 400px;
+  margin-left: 20px;
+  font-size: 80%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 50px;
+}
