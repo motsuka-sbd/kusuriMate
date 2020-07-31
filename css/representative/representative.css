@@ -1,4 +1,8 @@
-div#keireki{
+section#keirekimain{
+  width: 100%;
   position: absolute;
-  top:700px;
+  top: 1100px;
+  margin: 10px 20px 10px 20px;
+  color: #4c4c4c;
+  font-size: 1.1rem;
 }
