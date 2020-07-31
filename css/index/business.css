@@ -1,0 +1,45 @@
+section.business2{
+  top: 2500px;
+}
+
+.glb-text01 {
+    font-size: 1.6rem;
+    line-height: 2.0;
+}
+
+div, span, a, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, main, canvas, details, figcaption, figure, footer, header, menu, nav, section, summary, time, mark, audio, video {
+    background: transparent;
+    vertical-align: baseline;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.glb-list01.value>li {
+    float: left;
+    width: 280px;
+    letter-spacing: 0.1em;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}

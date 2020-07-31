@@ -8,23 +8,26 @@ div#VISION {
 }
 
 p#vision {
+    width: 100%;
     text-align: center;
     text-decoration: underline;
     color:#4c4c4c;
     font-size: 250%;
-    position: absolute; top: 0px; left: 45%;
+    position: absolute; top: 0px;
 }
 
 p#visionStatement {
+    width: 100%;
     text-align: center;
     color: #20b2aa;
     font-size: 300%;
-    position: absolute; top: 100px; left: 5%;
+    position: absolute; top: 100px;
 }
 
-div#visionExplain {
+p#visionExplain {
+    width: 100%;
     text-align: center;
     color:#4c4c4c;
     font-size: 125%;
-    position: absolute; top: 250px; left: 5%;
+    position: absolute; top: 250px;
 }

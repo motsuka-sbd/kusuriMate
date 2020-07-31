@@ -1,170 +1,41 @@
-div#business {
+section.business {
     width: 100%;
-    height: 2100px;
-    position: absolute; top: 2400px;
+    height: 500px;
+    position: absolute; top: 1765px;
+    background-color: rgb(243, 243, 243);
 }
 
-div#index {
-    width: 50px;
-    font-size: 400%;
-    position: -webkit-sticky;
-    position: sticky; 
-    top: 0;
-    left: 40px;
-    z-index: 1;
+
+.glb-text01 {
+    font-size: 50%;
 }
 
-div#p1 {
+div#index{
+    text-decoration: underline;
+    font-weight: bold;
+    color:#4c4c4c;
     width: 100%;
-    height: 300px;
-    position: absolute; 
-    top: 0px;
-    background-color: #EEEEEE;
+    text-align: center;
+    font-size: 200%;
+    display: block;
 }
 
-p#education {
-    font-size: 300%;
-    position: absolute; top: -30px; left: 200px;
+h3{
+    color:#2ea8e5;
+    font-size:150%;
 }
 
-div#eduImg {
-    background-image: url(../../img/index/10736002776.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    left: 250px;
-    display: none;
+li {
+    margin: auto;
+    list-style: none;
+    text-align: center;
 }
 
-div#p2 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 300px;
-    background-color: #EEEEEE;
+ul.glb-list01{
+    display: flex;
+    overflow: hidden;
+    color:#4c4c4c;
+    list-style: none;
+    list-style-type: disc;
 }
 
-p#network {
-    font-size: 300%;
-    position: absolute; top: -30px; right: 50px;
-}
-
-div#netImg {
-    background-image: url(../../img/index/Web会議.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    right: 200px;
-}
-
-div#p3 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 600px;
-    background-color: #EEEEEE;
-}
-
-p#support {
-    font-size: 300%;
-    position: absolute; top: -30px; left: 200px;
-}
-
-div#supImg {
-    background-image: url(../../img/index/10736002776.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    left: 250px;
-}
-
-div#p4 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 900px;
-    background-color: #EEEEEE;
-}
-
-p#event {
-    font-size: 300%;
-    position: absolute; top: -30px; right: 50px;
-}
-
-div#evntImg {
-    background-image: url(../../img/index/Web会議.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    right: 200px;
-}
-
-div#p5 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 1200px;
-    background-color: #EEEEEE;
-}
-
-p#research {
-    font-size: 300%;
-    position: absolute; top: -30px; left: 200px;
-}
-
-div#resImg {
-    background-image: url(../../img/index/10736002776.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    left: 250px;
-}
-
-div#p6 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 1500px;
-    background-color: #EEEEEE;
-}
-
-p#innovation {
-    font-size: 300%;
-    position: absolute; top: -30px; right: 50px;
-}
-
-div#innoImg {
-    background-image: url(../../img/index/Web会議.jpg);
-    width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    right: 200px;
-}
-
-div#p7 {
-    width: 100%;
-    height: 300px;
-    position: absolute;
-    top: 1800px;
-    background-color: #EEEEEE;
-}
-
-p#online {
-    font-size: 300%;
-    position: absolute; top: -30px; left: 200px;
-}
-
-div#onlineImg {
-    background-image: url(../../img/index/10736002776.jpg);
-    width: 500px;
-    height: 200px;
-    position: absolute;
-    top: 100px;
-    left: 250px;
-}

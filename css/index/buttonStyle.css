@@ -10,12 +10,10 @@
     line-height: 60px;
     border-radius: 5px;
     font-weight: bold;
-    background: linear-gradient(aquamarine 0%, mediumaquamarine 100%);
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+    background: #20b2aa;
   }
   
-  .btn-square-soft:active {
+  .btn-square-soft:hover {
     /*押したとき*/
     -webkit-transform: translateY(2px);
     transform: translateY(2px);/*沈むように*/
