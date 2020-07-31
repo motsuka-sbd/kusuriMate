@@ -1,45 +1,7 @@
 header#menu {
-    /* introduction to width and height in css: https://saruwakakun.com/html-css/basic/width-height */
-    /* how to set header position: http://webnonotes.com/css/header_footer/ */
+    background-image: url(../../img/index/くすりmateイメージメイン画像2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 100px;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(61, 195, 195, 0.692); 
-    color: white;
-    z-index: 3;
-}
-
-a#indexJump {
-    text-decoration: none;
-    color: white;
-}
-
-/* how to make menu items horizontal: https://uxmilk.jp/60712 */
-header#menu nav ul {
-    padding-left: 0px;
-    margin-top: 65px;
-    list-style: none;
-    overflow: visible;
-}
-
-header#menu nav li {
-    font-size: 150%;
-    margin: 0px;
-    width: 150px;
-    text-align: center;
-    float: right;
-    font-weight: bold;
-}
-
-header#menu nav li a {
-    text-decoration: none;
-    color: white;   /*to turn blue default to white: https://techacademy.jp/magazine/21233 */
-}
-h1{
-    font-size: 70px;
-    margin-top: 0px;
+    height: 550px;
 }

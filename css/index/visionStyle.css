@@ -1,32 +1,30 @@
 div#VISION {
     width: 100%;
-    height: 450px;
+    height: 400px;
     background-position: left;
     background-color: white;
-    position: absolute; top: 1100px;
+    position: absolute; top: 955px;
     background-color: rgb(243, 243, 243);
 }
-
-
 
 p#vision {
     text-align: center;
     text-decoration: underline;
     color:#4c4c4c;
-    font-size: 300%;
+    font-size: 250%;
     position: absolute; top: 0px; left: 45%;
 }
 
 p#visionStatement {
     text-align: center;
-    color:#4c4c4c;
-    font-size: 350%;
+    color: #20b2aa;
+    font-size: 300%;
     position: absolute; top: 100px; left: 5%;
 }
 
 div#visionExplain {
     text-align: center;
     color:#4c4c4c;
-    font-size: 150%;
+    font-size: 125%;
     position: absolute; top: 250px; left: 5%;
 }

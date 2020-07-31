@@ -1,8 +1,8 @@
 section#topbar{
-  width: 100%;
-  background-color: rgba(61, 195, 195, 0.692); 
+  width: 100%; 
   display: flex;
   justify-content: space-between;
+  background-color: rgba(105, 105, 105, 0.397);
 }
 
 a#indexJump {
@@ -12,13 +12,18 @@ a#indexJump {
 
 header#menu nav ul {
   padding-left: 0px;
-  margin-top: 65px;
+  margin-top: 45px;
   list-style: none;
   overflow: visible;
 }
 
+header#menu nav li:hover{
+  text-decoration: underline ;
+  
+}
+
 header#menu nav li {
-  font-size: 150%;
+  font-size: 100%;
   margin: 0px;
   width: 150px;
   text-align: center;
@@ -32,7 +37,7 @@ header#menu nav li a {
 }
 
 h1{
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
