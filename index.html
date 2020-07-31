@@ -73,48 +73,16 @@
                 <link rel="stylesheet" type="text/css" href="./css/index/memberStyle.css" -->
                 <link rel="stylesheet" type="text/css" href="./css/index/buttonStyle.css" -->   <!-- need refatoring?-->
             </section>
-            <!--section class="business2">
-                <div id="index">7つのコア事業</div>
-                <ul class="glb-list01 value">
-                     <li>
-                         <h3>教育</h3>
-                         <p class="glb-text01">自分に矢印を向け、易きに流れず、言行一致で信念をつらぬこう</p>
-                    </li>
-                     <li>
-                         <h3>ネットワーク</h3>
-                         <p class="glb-text01">チームの成果にどんな価値で貢献するか？ その価値が最大化されるやり方を自ら選びとろう</p>
-                    </li>
-                    <li>
-                        <h3>医療施設支援</h3>
-                        <p class="glb-text01">議論や批評に終わることなく、実現・実行・決断を。困難上等、やり抜くことを当たり前に</p>
-                    </li>
-                </ul>
-                <ul class="glb-list01 value">
-                    <li>
-                        <h3>イベント</h3>
-                        <p class="glb-text01">独りの限界を素直に認めることで、新たに学び、助けを求める強さを持とう</p>
-                    </li>
-                    <li>
-                        <h3>研究</h3>
-                        <p class="glb-text01">固定化した立場は関係ない。LeadershipとFollowershipを兼ね備え、状況に応じた働きを</p>
-                    </li>
-                    <li>
-                        <h3>イノベーション</h3>
-                        <p class="glb-text01">格差・階層・裏表のないオープンな組織をつくるのは、自分だ</p>
-                    </li>
-                </ul>
-                <link rel="stylesheet" type="text/css" href="./css/index/business.css">
-            </section-->
             <section class="business">
                 <div id=index>    <!-- 7つのコア事業-->
                     <p>７つのコア事業</p>
                 </div>
                 <ul class="glb-list01">
-                    <li>
+                    <li id="businessli">
                         <h3>教育</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
-                    <li>
+                    <li id="businessli">
                         <h3>ネットワーク</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
@@ -122,21 +90,21 @@
                         <h3>医療施設支援</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
-                    <li>
+                    <li id="businessli">
                         <h3>イベント</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
                 </ul>
                 <ul class="glb-list01">
-                    <li>
+                    <li id="businessli">
                         <h3>研究</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
-                    <li>
+                    <li id="businessli">
                         <h3>イノベーション</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
-                    <li>
+                    <li id="businessli">
                         <h3>オンライン配信</h3>
                         <p class="glb-text01">あああああああああああああああ</p>
                     </li>
@@ -146,42 +114,38 @@
         </main>
 <!-- Foooter -->
         <footer>  
-            <section class="contact">
-                <div id="CONTACT">
-                    <div id="contactLayout">
-                        <p id="contactTxt">CONTACT</p>
+            <section class="footermain">
+                <h1 id="contact">CONTACT</h1>
+                <div id="footerbarmain">
+                    <div id="contactbar">
+                        <div id="lineimg">
+                            <img src="./img/sns/lineQR.jpg">
+                        </div>
+                        <div id="contactmain"> 
+                            <p id="email">yuichi3771@yahoo.co.jp</p>
+                            <p id="line">LINE ID:yuichi4771</p>
+                        </div>
                     </div>
-                    <div id="lineQR"></div>
-                    <div id=emailLayout>
-                        <p id="emailTxt">yuichi4771@yahoo.co.jp</p>
+                    <div id="snscontact">
+                        <a id="fbLayout" class="fb" href=""><img src="./img/sns/f_logo_RGB-Hex-Blue_512.png" class="01"></a>
+                        <a id="lineLayout" class="line" href=""><img src="./img/sns/LINE_APP.png" class="01"></a>
+                        <a id="instaLayout" class="insta" href="">
+                            <img src="./img/sns/glyph-logo_May2016.png" class="01"></a>
                     </div>
-                    <div id="lineIdLayout">
-                        <p id="lineIdTxt">LINE ID: yuichi4771</p>
-                    </div>
-                    <a id="fbLayout" class="fb" href=""></a>
-                    <a id="lineLayout" class="line" href=""></a>
-                    <a id="instaLayout" class="insta" href=""></a>
-                    <!--    <div class="twitter"></div>
-                    <div class="linkedin"></div>
-                    <div class="eight"></div> -->
-                    <link rel="stylesheet" type="text/css" href="./css/index/contactStyle.css" -->
-                    <link rel="stylesheet" type="text/css" href="./css/sns/snsStyle.css" -->
                 </div>
+                <link rel="stylesheet" type="text/css" href="css/common/footermain2.css">
             </section>
-            <section class="footerLogo">
-                <div id="footerLogoLayout">
-                    <p id="footerLogoTxt" href="#">くすりmate</p>
-                </div>
+            <section class="footersub">
+                <h1 id="mainname">くすりmate</h1>
                 <ul id="footerMenu">
-                    <li><a href="#">- 代表</a></li>
-                    <li><a href="#">- 事業内容</a></li>
-                    <li><a href="#">- メンバー募集</a></li>
+                    <li class="Footer"><a href="#">- 代表</a></li>
+                    <li class="Footer"><a href="#">- 事業内容</a></li>
+                    <li class="Footer"><a href="#">- メンバー募集</a></li>
                 </ul>
-                <div id="copyRightLayout">
-                    <p id="copyRightTxt">くすりmate©</p>
-                </div>
-                <link rel="stylesheet" type="text/css" href="./css/common/indexFooterStyle.css" -->
+                <div id="copyRightLayout">くすりmate©</div>
+                <link rel="stylesheet" type="text/css" href="css/common/footersub.css">
             </section>
+            <link rel="stylesheet" type="text/css" href="./css/common/footermain.css">
         </footer>
      <link rel="stylesheet" type="text/css" href="./css/common/body.css">
     </body>

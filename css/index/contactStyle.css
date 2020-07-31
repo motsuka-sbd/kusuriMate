@@ -1,8 +1,6 @@
-div#CONTACT{
+section.contact{
     width: 100%;
     height: 250px;
-    position: absolute;
-    top: 4500px;
     background-color: #20b2aa;
 }
 
@@ -15,11 +13,11 @@ div#contactLayout{
 }
 
 p#contactTxt {
+    width: 100%;
+    text-align: center;
     font-size: 250%;
     color: white;
     position: absolute;
-    top: -45px;
-    left: 25%;
 }
 
 div#lineQR {

@@ -1,14 +1,7 @@
-/*-------------------------------------------------*/
-/*  フッターの位置をpx指定していて使いまわせない！     */
-/*  要リファクタ                                    */
-/*-------------------------------------------------*/
-
-footer {
+section.footerLogo{
     width: 100%;
-    height: 100px;
-    background-color: white;
-    position: absolute;
-    top: 4750px;
+    height: 200px;
+    top: 100px;
 }
 
 div#footerLogoLayout {

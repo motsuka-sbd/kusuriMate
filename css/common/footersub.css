@@ -1,0 +1,21 @@
+section.footersub{
+  width: 100%;
+  color: #4c4c4c;
+}
+
+ul#footerMenu{
+  margin-top: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li.Footer{
+  margin-left: 10px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+div#copyRightLayout{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.footermain{
+  background-color: #20b2aa;
+  width: 100%;
+  height: 225px;
+  color: white;
+}
+
+div#footerbarmain{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+div#contactmain{
+  margin-left: 10px;
+}
+
+h1#contact{
+  text-align: center;
+}
+
+div#contactbar{
+   display: flex;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
