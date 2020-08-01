@@ -6,17 +6,27 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header id="menu">  
-    <h1><a id="indexJump" href=index.html>くすりmate</a></h1>
-      <nav>  
-          <ul> 
-            <li><a href="wantedpage.html">メンバー募集</a></li>
-            <li><a href="businessDetail.html">事業内容</a></li>
-            <li><a href="representative.html">代表</a></li>
-          </ul>
-      </nav> 
-      <link rel="stylesheet" type="text/css" href="./css/common/headerStyle.css" -->
-    </header>
+    <header id="menu"> 
+      <section id="topbar">
+          <h1><a id="indexJump" href=index.html>くすりmate</a></h1> 
+          <nav>   
+              <ul>    
+                  <li><a href="wantedpage.html">メンバー募集</a></li>
+                  <li><a href="businessDetail.html">事業内容</a></li>
+                  <li><a href="representative.html">代表</a></li>
+              </ul>
+          </nav> 
+          <link rel="stylesheet" type="text/css" href="./css/common/topbar.css">
+      </section> 
+      <section id="topmain">
+          <div id="headerback"></div>
+          <div id="top">
+              <p id="platform">メンバー募集</p>
+          </div>
+          <link rel="stylesheet" type="text/css" href="css/common/topmain.css">
+      </section>
+      <link rel="stylesheet" type="text/css" href="css/common/headerStyle.css">
+  </header>
     <form id="wantedmenu">
       <p>お名前</p>
       <input type="text" name="opinion">
@@ -27,39 +37,38 @@
       <p>メッセージ</p>
       <input type="text">
     </form>
-    <div id="CONTACT">
-      <div id="contactLayout">
-          <p id="contactTxt">CONTACT</p>
-      </div>
-      <div id="lineQR"></div>
-      <div id=emailLayout>
-          <p id="emailTxt">yuichi4771@yahoo.co.jp</p>
-      </div>
-      <div id="lineIdLayout">
-          <p id="lineIdTxt">LINE ID: yuichi4771</p>
-      </div>
-      <a id="fbLayout" class="fb" href=""></a>
-      <a id="lineLayout" class="line" href=""></a>
-      <a id="instaLayout" class="insta" href=""></a>
-      <!--    <div class="twitter"></div>
-      <div class="linkedin"></div>
-      <div class="eight"></div> -->
-      <link rel="stylesheet" type="text/css" href="./css/index/contactStyle.css" -->
-      <link rel="stylesheet" type="text/css" href="./css/sns/snsStyle.css" -->
-    </div>
     <footer>  
-      <div id="footerLogoLayout">
-          <p id="footerLogoTxt" href="#">くすりmate</p>
-      </div>
-      <ul id="footerMenu">
-        <li><a href="#">- 代表</a></li>
-        <li><a href="#">- 事業内容</a></li>
-        <li><a href="#">- メンバー募集</a></li>
-      </ul>
-      <div id="copyRightLayout">
-        <p id="copyRightTxt">くすりmate©</p>
-      </div>
-      <link rel="stylesheet" type="text/css" href="./css/common/indexFooterStyle.css" -->
-    </footer>
+      <section class="footermain">
+          <h1 id="contact">CONTACT</h1>
+          <div id="footerbarmain">
+              <div id="contactbar">
+                  <div id="lineimg">
+                      <img src="./img/sns/lineQR.jpg">
+                  </div>
+                  <div id="contactmain"> 
+                      <p id="email">yuichi3771@yahoo.co.jp</p>
+                      <p id="line">LINE ID:yuichi4771</p>
+                  </div>
+              </div>
+              <div id="snscontact">
+                  <a class="sns" href=""><img src="./img/sns/f_logo_RGB-Hex-Blue_512.png"></a>
+                  <a class="sns" href=""><img src="./img/sns/LINE_APP.png" ></a>
+                  <a class="sns" href=""><img src="./img/sns/glyph-logo_May2016.png"></a>
+              </div>
+          </div>
+          <link rel="stylesheet" type="text/css" href="css/common/footermain2.css">
+      </section>
+      <section class="footersub">
+          <h1 id="mainname">くすりmate</h1>
+          <ul id="footerMenu">
+              <li class="Footer"><a href="#">- 代表</a></li>
+              <li class="Footer"><a href="#">- 事業内容</a></li>
+              <li class="Footer"><a href="#">- メンバー募集</a></li>
+          </ul>
+          <div id="copyRightLayout">くすりmate©</div>
+          <link rel="stylesheet" type="text/css" href="css/common/footersub.css">
+      </section>
+      <link rel="stylesheet" type="text/css" href="./css/common/footermain1.css">
+  </footer>
   </body>
 </html>
