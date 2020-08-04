@@ -7,7 +7,11 @@ section.business {
 
 
 .glb-text01 {
-    font-size: 50%;
+    font-size: 75%;
+}
+
+li.businessli{
+    width: 220px;
 }
 
 div#index{
@@ -22,8 +26,9 @@ div#index{
 
 h3{
     color:#2ea8e5;
-    font-size:150%;
+    font-size:180%;
 }
+
 
 li{
     margin: auto;
