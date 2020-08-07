@@ -2,6 +2,8 @@ section#shoukai{
   width: 100%;
   position: absolute;
   height: 600px;
+  top: 450px;
+  background-color: white;
 }
 
 div#aisatutop{

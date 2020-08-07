@@ -12,6 +12,9 @@ section.business {
 
 li.businessli{
     width: 220px;
+    margin: auto;
+    list-style: none;
+    text-align: center;
 }
 
 div#index{
@@ -24,16 +27,9 @@ div#index{
     display: block;
 }
 
-h3{
+li.businessli>h3{
     color:#2ea8e5;
     font-size:180%;
-}
-
-
-li{
-    margin: auto;
-    list-style: none;
-    text-align: center;
 }
 
 ul.glb-list01{
