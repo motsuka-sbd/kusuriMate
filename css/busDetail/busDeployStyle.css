@@ -1,9 +1,9 @@
 section.content {
     background-color:white;
-    width: 100%;
-    height: 950px;
+    width: 80%;
+    left: 10%;
     position: absolute;
-    top: 450px;
+    top: 500px;
    
 }
 
@@ -26,6 +26,7 @@ div#pfMsgLayout {
     top: 220px;
     border-radius: 50%;
     background-color: #BBBBBB;
+    color: #4c4c4c;
 }
 
 p#pfMsgTxt {
@@ -117,11 +118,11 @@ div.businesspart2{
     width: 100%;
 }
 
-
-
-
-
-
+div.box{
+    width: 100%;
+    top: -55px;
+    position: absolute;
+}
 
 div#grpLayout {
     width: 500px;
@@ -141,12 +142,14 @@ p#grpTxt {
     text-align: center;
 }
 
+
+
 div#eduLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 600px;
-    left: 20%;
+    left: 10%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #ff4f02;
@@ -157,17 +160,17 @@ div#eduLayout {
 p#eduTxt {
     position: absolute;
     top: -50%;
-    left: 40%;
+    left: 43%;
     font-size: 150%;
     text-align: center;
 }
 
 div#netLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 600px;
-    left: 45%;
+    left: 38%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #005fff;
@@ -179,17 +182,17 @@ div#netLayout {
 p#netTxt {
     position: absolute;
     top: -50%;
-    left: 22%;
+    left: 28%;
     font-size: 150%;
     text-align: center;
 }
 
 div#supLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 600px;
-    left: 70%;
+    right: 8%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #c0c0c0;
@@ -201,17 +204,17 @@ div#supLayout {
 p#supTxt {
     position: absolute;
     top: -50%;
-    left: 22%;
+    left: 25%;
     font-size: 150%;
     text-align: center;
 }
 
 div#eveLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 670px;
-    left: 20%;
+    left: 10%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #ffff00;
@@ -222,17 +225,17 @@ div#eveLayout {
 p#eveTxt {
     position: absolute;
     top: -50%;
-    left: 30%;
+    left: 35%;
     font-size: 150%;
     text-align: center;   
 }
 
 div#resLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 670px;
-    left: 45%;
+    left: 38%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #008000;
@@ -243,17 +246,17 @@ div#resLayout {
 p#resTxt {
     position: absolute;
     top: -50%;
-    left: 40%;
+    left: 43%;
     font-size: 150%;
     text-align: center;      
 }
 
 div#innLayout {
-    width: 250px;
+    width: 25%;
     height: 40px;
     position: absolute;
     top: 670px;
-    left: 70%;
+    right: 8%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #000000;
@@ -264,17 +267,17 @@ div#innLayout {
 p#innTxt {
     position: absolute;
     top: -50%;
-    left: 18%;
+    left: 23%;
     font-size: 150%;
     text-align: center;         
 }
 
 div#onlineLayout {
-    width: 925px;
+    width: 81.25%;
     height: 40px;
     position: absolute;
     top: 740px;
-    left: 20%;
+    left: 10%;
     border-radius: 10px / 10px;
     border-style: solid;
     border-color: #800080;
@@ -285,24 +288,24 @@ div#onlineLayout {
 p#onlineTxt {
     position: absolute;
     top: -50%;
-    left: 38%;
+    left: 43%;
     font-size: 150%;
     text-align: center;         
 }
 
 div#solLayout {
-    width: 1000px;
+    width: 100%;
     height: 300px;
     position: absolute;
-    top: 800px;
-    left: 10%;
+    top: 725px;
+    text-align: center;
 }
 
 p#solTxt {
     position: absolute;
-    
-    left: 20%;
+    width: 100%;
     font-size: 300%;
     text-align: center;
     text-decoration: underline;
+    color:#4c4c4c;
 }
