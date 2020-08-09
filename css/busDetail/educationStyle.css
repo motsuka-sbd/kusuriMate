@@ -1,8 +1,7 @@
-div#education {
+section.education {
     width: 100%;
-    height: 500px;
-    position: absolute;
-    top: 1100px;
+    position: absolute;;
+    top: 1400px;
 }
 
 div#eduTitleLayout {
@@ -28,7 +27,7 @@ p#eduTitleTxt{
 
 div#eduLeadImg {
     width: 15%;
-    height: 200px;
+    height: 250px;
     position: absolute;
     top: 80px;
     left: 10%;
@@ -39,9 +38,10 @@ div#educationPerson {
     width: 15%;
     height: 50px;
     position: absolute;
-    top: 290px;
+    top: 350px;
     left: 10%;
-    font-size: 75%;
+    font-size: 80%;
+    text-align: center;
 }
 
 div#training {
@@ -54,7 +54,7 @@ div#studyGrpLayout {
     width: 10%;
     height: 50px;
     position: absolute;
-    top: 530px;
+    top: 580px;
     left: 45%;
 }
 
@@ -65,15 +65,17 @@ p#studyGrpTxt {
 }
 
 ul#studyGrpOpt {
-    width: 90%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
     position: absolute;
-    top: 620px;
-    left: 3%;
-    list-style: circle;
+    top: 680px;
+    left: 13%;
 }
 
 ul#studyGrpOpt li {
-    width: 400px;
+    width: 350px;
+    padding-left: -500px;
     text-align: center;
     text-decoration: none;
     font-size: 150%;

@@ -1,7 +1,7 @@
-div#network {
+section.network {
     width: 100%;
     position: absolute;
-    top: 1850px;
+    top: 2200px;
     background-color: #eeeeee;
 }
 
@@ -41,7 +41,8 @@ div#netperson {
     position: absolute;
     top: 450px;
     left: 10%;
-    font-size: 75%;
+    font-size: 80%;
+    text-align: center;
 
 }
 
@@ -49,8 +50,8 @@ div#netLoungeLayout {
     width: 20%;
     height: 100px;
     position: absolute;
-    top: 80px;
-    left: 60%;
+    top: 50px;
+    left: 55%;
 }
 
 p#netLoungeTxt{
@@ -61,8 +62,8 @@ div#netComLayout {
     width: 50%;
     height: 200px;
     position: absolute;
-    top: 150px;
-    left: 45%;
+    top: 110px;
+    left: 37%;
 }
 
 p#netComTxt {
@@ -72,8 +73,9 @@ p#netComTxt {
 
 div#netlound {
     position: absolute;
-    top: 300px;
-    left: 45%;
+    width: 100px;
+    top: 200px;
+    left: 40%;
 }
 
 div#discussionLayout {
