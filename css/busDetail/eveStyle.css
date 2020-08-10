@@ -1,4 +1,4 @@
-div#event {
+section.event {
     width: 100%;
     height: auto;
     position: absolute;
@@ -22,7 +22,7 @@ div#eventLayout {
 p#eventTxt {
     position: absolute;
     top: -120%;
-    left: 38%;
+    left: 43%;
     font-size: 250%;
     text-align: center;
 }
@@ -40,6 +40,7 @@ div#eveperson {
     width: 15%;
     height: 50px;
     position: absolute;
+    text-align: center;
     top: 290px;
     left: 10%;
     font-size: 75%;

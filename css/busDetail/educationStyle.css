@@ -65,12 +65,13 @@ p#studyGrpTxt {
 }
 
 ul#studyGrpOpt {
-    width: 70%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    list-style-position: inside;
+    justify-content: center;
     position: absolute;
     top: 680px;
-    left: 13%;
+    left: 5%;
 }
 
 ul#studyGrpOpt li {

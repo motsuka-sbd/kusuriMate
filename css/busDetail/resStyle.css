@@ -1,8 +1,8 @@
-div#research {
+section.research {
     width: 100%;
     height: auto;
     position: absolute;
-    top: 4850px;
+    top: 4900px;
     background-color: #eeeeee;
 }
 
@@ -42,6 +42,7 @@ div#researchperson {
     width: 15%;
     height: 50px;
     position: absolute;
+    text-align: center;
     top: 290px;
     left: 10%;
     font-size: 75%;

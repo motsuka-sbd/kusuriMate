@@ -1,6 +1,5 @@
-div#innovation {
+section.innovetion {
     width: 100%;
-    height: auto;
     position: absolute;
     top: 5500px;
 }
@@ -30,6 +29,6 @@ p#innovationTxt {
 p#wanted {
     position: absolute;
     top: 50px;
-    font-size: 400%;
-    left: 35%;
+    font-size: 300%;
+    left: 38%;
 }

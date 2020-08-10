@@ -1,8 +1,8 @@
-div#online {
+section.online {
     width: 100%;
     height: auto;
     position: absolute;
-    top: 5750px;
+    top: 5700px;
 }
 
 div#onlinePfLayout {
@@ -39,6 +39,7 @@ div#onlinePfPerson {
     width: 15%;
     height: 50px;
     position: absolute;
+    text-align: center;
     top: 290px;
     left: 10%;
     font-size: 75%;
@@ -47,5 +48,5 @@ div#onlinePfPerson {
 div#onlinedeta {
     position: absolute;
     top: 90px;
-    left: 30%;
+    left: 40%;
 }

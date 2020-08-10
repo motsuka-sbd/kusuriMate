@@ -34,6 +34,7 @@ li.businessli>h3{
 
 ul.glb-list01{
     display: flex;
+    justify-content: center;
     overflow: hidden;
     color:#4c4c4c;
     list-style: none;

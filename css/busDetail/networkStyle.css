@@ -73,22 +73,23 @@ p#netComTxt {
 
 div#netlound {
     position: absolute;
-    width: 100px;
     top: 200px;
     left: 40%;
 }
 
 div#discussionLayout {
     position: absolute;
-    top: 750px;
+    top: 580px;
+    width: 100%;
 }
 
 p#discussionTxt {
-    font-size: 250%;
+    font-size:180%;
     text-align: center;
 }
 
 div#networkImg {
     position: absolute;
-    top: 1000px;
+    top: 800px;
+    left: 15%;
 }
