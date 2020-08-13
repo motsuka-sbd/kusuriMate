@@ -7,12 +7,12 @@ section.business {
 
 
 .glb-text01 {
-    font-size: 75%;
+    font-size: 90%;
 }
 
 li.businessli{
     width: 220px;
-    margin: auto;
+    margin: 10px 37px 0px 37px;
     list-style: none;
     text-align: center;
 }
@@ -30,6 +30,7 @@ div#index{
 li.businessli>h3{
     color:#2ea8e5;
     font-size:180%;
+    margin-bottom: 0;
 }
 
 ul.glb-list01{
@@ -40,4 +41,5 @@ ul.glb-list01{
     list-style: none;
     list-style-type: disc;
 }
+
 
